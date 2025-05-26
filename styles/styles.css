@@ -33,4 +33,15 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  padding: 20px;
+}
+
+.ejemplos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 15px;
+}
+
+.ejemplos img {
+  width: 400px;
 }
