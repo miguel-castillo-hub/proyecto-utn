@@ -3,3 +3,34 @@
   padding: 0;
   font-family: "Share Tech", sans-serif;
 }
+
+.completo {
+  background-color: rgb(55, 94, 167);
+}
+
+.portada img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: aqua;
+  padding: 10px;
+  font-size: 50px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descripcion {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(202, 255, 255);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
