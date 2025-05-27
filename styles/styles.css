@@ -45,3 +45,13 @@
 .ejemplos img {
   width: 400px;
 }
+
+.contacto h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(202, 255, 255);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
