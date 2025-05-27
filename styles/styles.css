@@ -26,6 +26,24 @@
   align-items: center;
 }
 
+.navegacion {
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+}
+
+.navegacion a {
+  color: deepskyblue;
+}
+
+.navegacion a:hover {
+  color: white;
+}
+
 .descripcion {
   font-size: 25px;
   font-weight: 600;
