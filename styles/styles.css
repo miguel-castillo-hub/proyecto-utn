@@ -47,11 +47,37 @@
 }
 
 .contacto h3 {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 600;
   color: rgb(202, 255, 255);
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 20px;
+}
+
+.contacto p {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(202, 255, 255);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.contacto form input,
+textarea {
+  padding: 10px;
+  resize: none;
+  margin-left: 15px;
+  display: block;
+}
+
+.contacto label {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(202, 255, 255);
+  padding: 20px;
+  font-style: italic;
 }
