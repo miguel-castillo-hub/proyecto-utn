@@ -27,6 +27,8 @@
 }
 
 .navegacion {
+  background: blueviolet;
+  width: 100%;
   font-size: 25px;
   font-weight: 600;
   display: flex;
@@ -34,14 +36,32 @@
   align-items: center;
   list-style-type: none;
   color: white;
+  position: fixed;
 }
 
-.navegacion a {
+.navegacion nav {
+  float: left;
+}
+
+.navegacion nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+.navegacion nav ul li {
+  float: left;
+  margin: 10px;
+}
+
+.navegacion nav ul li a {
+  display: block;
   color: deepskyblue;
+  text-decoration: none;
 }
 
 .navegacion a:hover {
   color: white;
+  background: blue;
 }
 
 .descripcion {
