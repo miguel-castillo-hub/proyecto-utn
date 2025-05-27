@@ -56,6 +56,27 @@
   width: 400px;
   box-shadow: 10px 14px 5px 0px rgba(0, 0, 0, 0.24);
   border-radius: 5px;
+  animation: aparecer 1s forwards;
+}
+
+.equipo h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(202, 255, 255);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.equipo li {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  list-style-type: disc;
 }
 
 .contacto h3 {
@@ -122,4 +143,14 @@ textarea {
   text-align: center;
   padding: 20px;
   border-top-style: solid;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
