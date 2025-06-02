@@ -37,6 +37,7 @@
   list-style-type: none;
   color: white;
   position: fixed;
+  z-index: 100;
 }
 
 .navegacion nav {
@@ -44,24 +45,25 @@
 }
 
 .navegacion nav ul {
-  list-style: none;
+  display: inline;
   overflow: hidden;
 }
 
 .navegacion nav ul li {
+  display: inline;
   float: left;
   margin: 10px;
 }
 
 .navegacion nav ul li a {
-  display: block;
+  display: inline;
   color: deepskyblue;
   text-decoration: none;
 }
 
 .navegacion a:hover {
   color: white;
-  background: blue;
+  scale: 1.05;
 }
 
 .descripcion {
@@ -190,5 +192,57 @@ textarea {
 
   to {
     opacity: 1;
+  }
+}
+
+@media (max-width:880px) {
+  .navegacion {
+    font-size: 20px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .subtitulo h3 {
+    font-size: 25px;
+  }
+
+  .equipo h3 {
+    font-size: 25px;
+  }
+
+  .contacto h3 {
+    font-size: 25px;
+  }
+
+  .descripcion {
+    font-size: 20px
+  }
+
+  .contacto p {
+    font-size: 20px;
+  }
+
+  .ejemplos {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .ejemplos img {
+    width: 250px;
+  }
+}
+
+@media (max-width:480px) {
+  .navegacion {
+    font-size: 15px;
+  }
+
+  .ejemplos {
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  }
+
+  .ejemplos img {
+    width: 175px;
   }
 }
